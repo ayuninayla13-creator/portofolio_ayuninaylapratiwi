@@ -1,0 +1,9 @@
+PENGATURAN LINK DEMO PROYEK
+
+Edit `script.js`, bagian `projectData`.
+
+Untuk setiap proyek:
+- `demoUrl`: isi URL aplikasi yang sudah di-hosting.
+- `githubUrl`: isi URL repository GitHub.
+
+Jika URL kosong, tombol akan tampil sebagai nonaktif sehingga portfolio tidak mengarah ke localhost atau link palsu.

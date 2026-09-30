@@ -1,0 +1,40 @@
+
+/* Portfolio project-detail compatibility */
+.project-modal.show,
+.project-modal.active {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+.project-modal.show .project-modal-content,
+.project-modal.active .project-modal-content {
+  transform: translateY(0);
+}
+.project-detail-actions {
+  display:flex;
+  flex-wrap:wrap;
+  gap:.75rem;
+  margin-top:1.25rem;
+}
+.project-link-disabled {
+  opacity:.55;
+  cursor:not-allowed;
+}
+.project-status {
+  display:inline-flex;
+  align-items:center;
+  gap:.45rem;
+  font-size:.82rem;
+  padding:.35rem .7rem;
+  border-radius:999px;
+  margin:.75rem 0;
+  border:1px solid rgba(127,127,127,.25);
+}
+.project-case-note {
+  margin-top:1rem;
+  padding:1rem;
+  border-radius:12px;
+  background:rgba(127,127,127,.08);
+  line-height:1.6;
+}
